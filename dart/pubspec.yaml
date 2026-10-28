@@ -1,0 +1,10 @@
+name: pdftomd_url_tools
+description: "Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required."
+version: 0.1.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+homepage: https://pdftomd.tools/
+repository: https://github.com/wangneo276-lgtm/pdftomd-url-tools
+
+dev_dependencies:
+  test: ^1.25.0

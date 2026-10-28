@@ -1,0 +1,20 @@
+{
+  "name": "pdftomd-url-tools",
+  "version": "0.1.0",
+  "description": "Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://pdftomd.tools/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangneo276-lgtm/pdftomd-url-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangneo276-lgtm/pdftomd-url-tools/issues"
+  },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "author": "wangneo276-lgtm"
+}

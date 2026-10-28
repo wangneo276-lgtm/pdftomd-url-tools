@@ -1,0 +1,19 @@
+{
+  "name": "bbwdadfg/pdftomd-url-tools",
+  "description": "Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required.",
+  "type": "library",
+  "license": ["MIT"],
+  "homepage": "https://pdftomd.tools/",
+  "support": {
+    "source": "https://github.com/wangneo276-lgtm/pdftomd-url-tools"
+  },
+  "autoload": {
+    "psr-4": {
+      "PdfToMd\\UrlTools\\": "php/src/PdfToMd/UrlTools/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "authors": [{"name": "wangneo276-lgtm"}]
+}

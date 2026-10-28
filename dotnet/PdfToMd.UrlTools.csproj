@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>PdfToMd.UrlTools</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>wangneo276-lgtm</Authors>
+    <Description>Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required.</Description>
+    <PackageProjectUrl>https://pdftomd.tools/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wangneo276-lgtm/pdftomd-url-tools</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests/**" />
+    <None Include="../README.md" Pack="true" PackagePath="" />
+    <None Include="../LICENSE" Pack="true" PackagePath="LICENSE" />
+  </ItemGroup>
+</Project>

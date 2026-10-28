@@ -1,0 +1,15 @@
+[package]
+name = "pdftomd-url-tools"
+version = "0.1.0"
+edition = "2021"
+description = 'Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required.'
+license = "MIT"
+homepage = "https://pdftomd.tools/"
+repository = "https://github.com/wangneo276-lgtm/pdftomd-url-tools"
+readme = "README.md"
+keywords = ["pdf", "markdown", "url"]
+include = ["src/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[lib]
+name = "pdftomd_url_tools"
+path = "src/lib.rs"

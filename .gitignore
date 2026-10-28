@@ -1,0 +1,16 @@
+target/
+.build/
+.swiftpm/
+dist/
+*.gem
+**/*.egg-info/
+**/__pycache__/
+.dart_tool/
+pubspec.lock
+dotnet/**/bin/
+dotnet/**/obj/
+java/target/
+*.nupkg
+*.snupkg
+*.rock
+.DS_Store

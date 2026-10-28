@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdftomd-url-tools"
+version = "0.1.0"
+description = 'Free in-browser pdf to md tool. Drop a text PDF, preview Markdown, copy or download—files stay on your device. No account required.'
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "wangneo276-lgtm" }]
+
+[project.urls]
+Homepage = "https://pdftomd.tools/"
+Repository = "https://github.com/wangneo276-lgtm/pdftomd-url-tools"
+Issues = "https://github.com/wangneo276-lgtm/pdftomd-url-tools/issues"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["pdftomd_url_tools*"]

@@ -1,0 +1,8 @@
+local M = require("pdftomd_url_tools")
+assert(M.home_url() == "https://pdftomd.tools/")
+assert(M.page_url("pdf-to-md") == "https://pdftomd.tools/pdf-to-md-converter")
+assert(M.blog_url("convert-pdf-tables-to-markdown") == "https://pdftomd.tools/blog/convert-pdf-tables-to-markdown")
+assert(M.canonical_url("https://pdftomd.tools/about?x=1#y") == "https://pdftomd.tools/about")
+local ok = pcall(function() M.canonical_url("https://example.com/") end)
+assert(not ok)
+print("lua ok")
